@@ -1,8 +1,8 @@
 from enum import IntEnum
 
-from src.core.game.settings import DIFFICULTY_LEVELS
-from src.scenes.game.game_scene import GameScene
-from src.scenes.menus.abstracts.base_menu_scene import BaseMenuScene
+from  core.game.settings import DIFFICULTY_LEVELS
+from  scenes.game.game_scene import GameScene
+from  scenes.menus.abstracts.base_menu_scene import BaseMenuScene
 
 
 class MainMenuScene(BaseMenuScene):

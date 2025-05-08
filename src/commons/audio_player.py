@@ -4,9 +4,9 @@ from typing import Union, Optional
 import pygame as pg
 from pygame.mixer import Sound
 
-from src.core.game.settings import SFX_VOLUME, MUSIC_VOLUME
-from src.resources.music import music
-from src.resources.sounds import sfx
+from  core.game.settings import SFX_VOLUME, MUSIC_VOLUME
+from  resources.music import music
+from  resources.sounds import sfx
 
 
 class AudioPlayer:

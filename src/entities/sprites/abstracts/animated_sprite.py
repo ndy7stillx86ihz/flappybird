@@ -2,7 +2,7 @@ from abc import ABC
 
 import pygame as pg
 
-from src.entities.sprites.interfaces import IAnimatedSprite
+from  entities.sprites.interfaces import IAnimatedSprite
 
 
 class AnimatedSprite(pg.sprite.Sprite,

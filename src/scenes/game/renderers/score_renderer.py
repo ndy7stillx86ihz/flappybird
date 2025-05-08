@@ -1,5 +1,5 @@
-from src.commons.abstracts import BaseTextRenderer
-from src.core.game.settings import SCREEN_WIDTH, SCREEN_HEIGHT
+from  commons.abstracts import BaseTextRenderer
+from  core.game.settings import SCREEN_WIDTH, SCREEN_HEIGHT
 
 
 class ScoreRenderer(BaseTextRenderer):

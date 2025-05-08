@@ -1,14 +1,14 @@
 import pygame as pg
 from pygame import SurfaceType
 
-from src.commons.audio_player import AudioPlayer
-from src.commons.helpers import is_pressed, darken_image
-from src.entities.sprites.background import Background
-from src.scenes.abstracts.base_scene import BaseScene
-from src.scenes.game.renderers import ScoreRenderer
-from src.scenes.managers.game_flow_manager import GameFlowManager
-from src.scenes.menus.game_over_menu_scene import GameOverScene
-from src.scenes.menus.pause_menu_scene import PauseMenuScene
+from  commons.audio_player import AudioPlayer
+from  commons.helpers import is_pressed, darken_image
+from  entities.sprites.background import Background
+from  scenes.abstracts.base_scene import BaseScene
+from  scenes.game.renderers import ScoreRenderer
+from  scenes.managers.game_flow_manager import GameFlowManager
+from  scenes.menus.game_over_menu_scene import GameOverScene
+from  scenes.menus.pause_menu_scene import PauseMenuScene
 
 
 class GameScene(BaseScene):

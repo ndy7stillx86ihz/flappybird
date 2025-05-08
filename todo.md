@@ -1,0 +1,2 @@
+- Hacer que los sprites del piso, sean uno solo y dejar de usar la instanciacion de tantos sprites para ahorrar en rendimiento
+- Arreglar el renderizado del fondo, en vez de que sean superficies nuevas que se van instanciando y moviendo, mejor unir todas las superficies en una sola y que se mueva y asi no hay necesidad de calcular cada uno de los sprites del fondo

@@ -1,11 +1,11 @@
 import random as r
 from time import time
 
-from src.commons.constants import INGAME_DEADZONE
-from src.commons.helpers import is_between
-from src.core.game.settings import SCREEN_WIDTH
-from src.entities.sprites.pipe import Pipe
-from src.resources.spritesheets import pipe_spritesheet
+from  commons.constants import INGAME_DEADZONE
+from  commons.helpers import is_between
+from  core.game.settings import SCREEN_WIDTH
+from  entities.sprites.pipe import Pipe
+from  resources.spritesheets import pipe_spritesheet
 
 
 class PipeSpawnerMixin:

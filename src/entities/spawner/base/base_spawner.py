@@ -1,6 +1,6 @@
 from abc import ABC
 
-from src.entities.spawner.interfaces import ISpawner
+from  entities.spawner.interfaces import ISpawner
 
 
 class BaseSpawner(ISpawner, ABC):

@@ -1,8 +1,8 @@
 from time import time
 
-from src.core.game.settings import DIFFICULTY_LEVELS
-from src.entities.sprites.abstracts import CommonSprite, CollidableSprite, MovingSprite, SolidSprite
-from src.resources.spritesheets import pipe_spritesheet
+from  core.game.settings import DIFFICULTY_LEVELS
+from  entities.sprites.abstracts import CommonSprite, CollidableSprite, MovingSprite, SolidSprite
+from  resources.spritesheets import pipe_spritesheet
 
 
 class Pipe(SolidSprite,

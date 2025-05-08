@@ -3,8 +3,8 @@ from typing import List, Union, Dict
 
 from dataclass_csv import DataclassReader, DataclassWriter
 
-from src.core.game.settings import DATA_DIR
-from src.resources.dataclasses import ScoreRecord
+from  core.game.settings import DATA_DIR
+from  resources.dataclasses import ScoreRecord
 
 
 class ScoreManager:

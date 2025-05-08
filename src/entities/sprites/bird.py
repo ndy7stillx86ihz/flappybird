@@ -1,11 +1,11 @@
 from random import choice
 
-from src.commons.audio_player import AudioPlayer
-from src.commons.constants import JUMP_FORCE
-from src.commons.helpers import is_between
-from src.core.game.settings import SCREEN_HEIGHT, FLAP_VOLUME
-from src.entities.sprites.abstracts import AnimatedSprite, CollidableSprite, BaseSprite, MovingSprite
-from src.resources.spritesheets import bird_spritesheet
+from  commons.audio_player import AudioPlayer
+from  commons.constants import JUMP_FORCE
+from  commons.helpers import is_between
+from  core.game.settings import SCREEN_HEIGHT, FLAP_VOLUME
+from  entities.sprites.abstracts import AnimatedSprite, CollidableSprite, BaseSprite, MovingSprite
+from  resources.spritesheets import bird_spritesheet
 
 
 class Bird(AnimatedSprite,
@@ -26,8 +26,8 @@ class Bird(AnimatedSprite,
         self.velocity_y = 0
 
     def on_collision(self, other: 'CollidableSprite') -> None:
-        from src.entities.sprites.pipe import Pipe
-        from src.entities.sprites.floor import Floor
+        from  entities.sprites.pipe import Pipe
+        from  entities.sprites.floor import Floor
 
         if isinstance(other, Pipe):
             # hits on the left

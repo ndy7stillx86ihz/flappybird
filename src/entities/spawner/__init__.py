@@ -2,8 +2,8 @@ from time import time
 
 from pygame.sprite import Sprite
 
-from src.entities.spawner.base import BaseSpawner
-from src.entities.spawner.mixins import BirdSpawnerMixin, PipeSpawnerMixin, FloorSpawnerMixin
+from  entities.spawner.base import BaseSpawner
+from  entities.spawner.mixins import BirdSpawnerMixin, PipeSpawnerMixin, FloorSpawnerMixin
 
 
 # factory class for spawning entities

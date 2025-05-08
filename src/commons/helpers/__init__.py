@@ -1,6 +1,6 @@
 import pygame as pg
 
-from src.core.game.settings import KEY_BINDINGS, DIFFICULTY_LEVELS, DIFFICULTY
+from  core.game.settings import KEY_BINDINGS, DIFFICULTY_LEVELS, DIFFICULTY
 from .encoder import encode, decode
 from ..constants import FONT_FILENAME, FONTS_DIR, DEFAULT_FONT_SIZE, COLORS
 

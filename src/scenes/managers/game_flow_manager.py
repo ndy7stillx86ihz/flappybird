@@ -2,16 +2,16 @@ from random import choice
 
 import pygame as pg
 
-from src.commons.audio_player import AudioPlayer
-from src.commons.constants import BG_SPEED
-from src.commons.decorators import has_sfx
-from src.commons.helpers import is_pressed
-from src.core.game.settings import DIFFICULTY_LEVELS, DIE_VOLUME
-from src.core.physics import Physics
-from src.entities.spawner import EntitiySpawner
-from src.entities.sprites.background import Background
-from src.resources.backgrounds import backgrounds
-from src.scenes.managers.mixins import SpriteManagerMixin, CollisionDetectionMixin, GameLogicMixin
+from  commons.audio_player import AudioPlayer
+from  commons.constants import BG_SPEED
+from  commons.decorators import has_sfx
+from  commons.helpers import is_pressed
+from  core.game.settings import DIFFICULTY_LEVELS, DIE_VOLUME
+from  core.physics import Physics
+from  entities.spawner import EntitiySpawner
+from  entities.sprites.background import Background
+from  resources.backgrounds import backgrounds
+from  scenes.managers.mixins import SpriteManagerMixin, CollisionDetectionMixin, GameLogicMixin
 
 
 class GameFlowManager(SpriteManagerMixin,

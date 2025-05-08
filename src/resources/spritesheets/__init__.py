@@ -1,7 +1,7 @@
 import pygame as pg
 
-from src.commons.assets_loader import AssetsLoader
-from src.commons.constants import BIRD_SIZE, PIPES_SIZE, FLOOR_SIZE
+from  commons.assets_loader import AssetsLoader
+from  commons.constants import BIRD_SIZE, PIPES_SIZE, FLOOR_SIZE
 
 birds_colors = ['blue', 'brown', 'green', 'orange', 'purple', 'red', 'white']
 pipes_colors = ['orange', 'green']

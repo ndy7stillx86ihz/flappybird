@@ -1,2 +1,2 @@
-from src.entities.sprites.abstracts import BaseSprite
-from src.entities.sprites.pipe import Pipe
+from  entities.sprites.abstracts import BaseSprite
+from  entities.sprites.pipe import Pipe

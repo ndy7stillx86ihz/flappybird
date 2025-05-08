@@ -1,10 +1,10 @@
-from src.commons.decorators import has_sfx
-from src.commons.helpers import get_color
-from src.core.game.settings import SCORE_VOLUME, HIT_VOLUME
-from src.entities import Pipe
-from src.entities.sprites import Bird
-from src.entities.sprites.abstracts import MovingSprite
-from src.entities.sprites.blink import Blink
+from  commons.decorators import has_sfx
+from  commons.helpers import get_color
+from  core.game.settings import SCORE_VOLUME, HIT_VOLUME
+from  entities import Pipe
+from  entities.sprites import Bird
+from  entities.sprites.abstracts import MovingSprite
+from  entities.sprites.blink import Blink
 
 
 class GameLogicMixin:

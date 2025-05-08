@@ -2,7 +2,7 @@ from abc import ABC
 
 import pygame as pg
 
-from src.entities.sprites.interfaces import ICollidableSprite
+from  entities.sprites.interfaces import ICollidableSprite
 
 
 class CollidableSprite(pg.sprite.Sprite,

@@ -1,6 +1,6 @@
 import pygame as pg
 
-from src.core.events import GameEvent
+from  core.events import GameEvent
 
 
 class EventManagerMixin:

@@ -4,7 +4,7 @@ from typing import Union
 
 import pygame as pg
 
-from src.commons.helpers import get_font, get_color
+from  commons.helpers import get_font, get_color
 
 
 class BaseTextRenderer(ABC):

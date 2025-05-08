@@ -1,6 +1,6 @@
-from src.commons.constants import FLOOR_Y, FLOOR_WIDTH
-from src.core.game.settings import SCREEN_WIDTH
-from src.entities.sprites.floor import Floor
+from  commons.constants import FLOOR_Y, FLOOR_WIDTH
+from  core.game.settings import SCREEN_WIDTH
+from  entities.sprites.floor import Floor
 
 
 class FloorSpawnerMixin:

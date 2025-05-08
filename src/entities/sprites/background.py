@@ -1,9 +1,9 @@
 from random import choice
 
-from src.commons.constants import BG_SPEED, DEFAULT_BG_ALPHA, DEFAULT_BG_LAYER
-from src.core.game.settings import SCREEN_WIDTH
-from src.entities.sprites.abstracts import CommonSprite, SolidSprite, MovingSprite
-from src.resources.backgrounds import backgrounds
+from  commons.constants import BG_SPEED, DEFAULT_BG_ALPHA, DEFAULT_BG_LAYER
+from  core.game.settings import SCREEN_WIDTH
+from  entities.sprites.abstracts import CommonSprite, SolidSprite, MovingSprite
+from  resources.backgrounds import backgrounds
 
 
 class Background(SolidSprite,

@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from src.core.game.settings import SCREEN_HEIGHT
-from src.scenes.menus.abstracts.base_menu_scene import BaseMenuScene
+from  core.game.settings import SCREEN_HEIGHT
+from  scenes.menus.abstracts.base_menu_scene import BaseMenuScene
 
 
 class HighScoresScene(BaseMenuScene):

@@ -2,8 +2,8 @@ from time import time
 
 import pygame as pg
 
-from src.core.game.settings import SCREEN_SIZE
-from src.entities.sprites.abstracts import SolidSprite, CommonSprite
+from  core.game.settings import SCREEN_SIZE
+from  entities.sprites.abstracts import SolidSprite, CommonSprite
 
 
 class Blink(SolidSprite,

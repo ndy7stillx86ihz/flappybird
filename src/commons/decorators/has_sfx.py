@@ -1,7 +1,7 @@
 import functools
 from typing import Union
 
-from src.commons.audio_player import AudioPlayer
+from  commons.audio_player import AudioPlayer
 
 
 def has_sfx(sfx: Union[str, 'Sound', 'SoundType'], volume: float = 1.0):

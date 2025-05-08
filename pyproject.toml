@@ -1,0 +1,12 @@
+[project]
+name = "flappybird"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dataclass-csv~=1.4.0",
+    "pillow~=10.4.0",
+    "pygame~=2.6.0",
+    "pyinstaller~=6.10.0",
+]

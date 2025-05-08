@@ -2,7 +2,7 @@ from abc import ABC
 
 from pygame.sprite import Sprite
 
-from src.entities.sprites.interfaces import ISprite
+from  entities.sprites.interfaces import ISprite
 
 
 class BaseSprite(Sprite,

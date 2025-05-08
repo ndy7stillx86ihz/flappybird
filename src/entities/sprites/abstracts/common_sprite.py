@@ -2,7 +2,7 @@ from abc import ABC
 
 import pygame as pg
 
-from src.entities.sprites.abstracts import BaseSprite
+from  entities.sprites.abstracts import BaseSprite
 
 
 class CommonSprite(BaseSprite,

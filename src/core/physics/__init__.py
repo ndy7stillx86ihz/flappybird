@@ -1,7 +1,7 @@
 from pygame.sprite import Group
 
-from src.commons.constants import GRAVITY_FORCE
-from src.entities.sprites.abstracts import SolidSprite
+from  commons.constants import GRAVITY_FORCE
+from  entities.sprites.abstracts import SolidSprite
 
 
 class Physics:

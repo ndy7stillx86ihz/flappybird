@@ -10,7 +10,7 @@ def main() -> None:
     pg.mixer.init()
     pg.font.init()
 
-    from src.core.game import Game, settings as s
+    from core.game import Game, settings as s
 
     game = Game(
         title=s.GAME_TITLE,

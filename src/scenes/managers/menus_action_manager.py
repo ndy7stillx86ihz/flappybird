@@ -1,8 +1,8 @@
 from enum import IntEnum
 
-from src.commons.decorators import has_sfx
-from src.core.game.settings import SWOOSH_VOLUME
-from src.scenes.managers.mixins import MenuRendererMixin
+from  commons.decorators import has_sfx
+from  core.game.settings import SWOOSH_VOLUME
+from  scenes.managers.mixins import MenuRendererMixin
 
 
 class MenuActionsManger(MenuRendererMixin):

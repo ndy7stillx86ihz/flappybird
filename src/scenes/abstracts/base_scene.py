@@ -3,10 +3,10 @@ from abc import ABC
 import pygame as pg
 from pygame.sprite import Group
 
-from src.commons.constants import BASE_COLOR
-from src.commons.helpers import get_color
-from src.entities.sprites.background import Background
-from src.scenes.interfaces import IScene
+from  commons.constants import BASE_COLOR
+from  commons.helpers import get_color
+from  entities.sprites.background import Background
+from  scenes.interfaces import IScene
 
 
 class BaseScene(IScene, ABC):

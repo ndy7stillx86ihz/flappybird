@@ -1,6 +1,6 @@
 import pygame as pg
 
-from src.commons.assets_loader import AssetsLoader, ASSETS_DIR
+from  commons.assets_loader import AssetsLoader, ASSETS_DIR
 
 pg.mixer.init()
 

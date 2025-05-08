@@ -3,7 +3,7 @@ from typing import Union
 
 import pygame as pg
 
-from src.core.game.settings import BASE_DIR
+from  core.game.settings import BASE_DIR
 
 ASSETS_DIR = BASE_DIR.parent.joinpath('assets')  # src/assets
 SPRITES_DIR = ASSETS_DIR.joinpath('images', 'sprites')
